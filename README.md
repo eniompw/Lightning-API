@@ -4,7 +4,7 @@ This repository contains a simple example of how to use the Lightning AI SDK to 
 
 ## Files
 
-- `lightning-api.py`: The main script that uses the `lightning_sdk` to:
+- `launch_job.py`: The main script that uses the `lightning_sdk` to:
   - Create or connect to a Lightning Studio.
   - Switch to a specific GPU machine (e.g., T4, L4, A100, H100).
   - Execute a Python script (`train.py`) on that machine.
@@ -24,5 +24,5 @@ pip install lightning-sdk
 Run the main script to provision the GPU, run the job, and automatically spin it down:
 
 ```bash
-python lightning-api.py
+python launch_job.py
 ```
